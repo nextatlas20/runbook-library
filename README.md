@@ -30,3 +30,9 @@ sweep into `runbooks/certified/<service>/<slug>/`.
 
 `service`, `title`, `owner`, `severity` and `last_reviewed` are mandatory. The
 `owner` is the accountable person, not the team alias.
+
+## Naming
+
+Use lower-case kebab-case for both the service directory and the slug. The slug
+describes the failure mode, not the fix: `checkout-latency`, not
+`add-quote-cache`.
